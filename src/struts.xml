@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<package name="default" extends="struts-default" namespace="/JSP/Other">
+	
+		<action name="loginAction" class="userAction" method="login">
+			<result name="success">main.jsp</result>
+			<result name="fail">/JSP/Other/index.jsp</result>
+		</action>
+		<action name="infoInput" class="commodityAction" method="infoInput">
+			<result name="success">/JSP/Commodity/input_success.jsp</result>
+		</action>
+		<action name="infoSelect" class="commodityAction" method="infoSelect">
+			<result name="success">/JSP/Commodity/select_success.jsp</result>
+		</action>
+		<action name="browseAllUser" class="userAction" method="browseAllUser">
+			<result name="success">/JSP/User/maintenance.jsp</result>
+		</action>
+		<action name="browseAllCommodity" class="commodityAction" method="browseAllCommodity">
+			<result name="success">/JSP/Commodity/commoditySelect.jsp</result>
+		</action>
+		<action name="browseAllConsume" class="consumeAction" method="browseAllConsume">
+			<result name="success">/JSP/Consume/vipRegister.jsp</result>
+		</action>
+		<action name="browseAllVip" class="vipAction" method="browseAllVip">
+			<result name="success">/JSP/Vip/vipSelect.jsp</result>
+		</action>
+		<action name="changeState" class="userAction" method="changeState">
+			<result name="success" type="redirectAction">browseAllUser</result>
+		</action>
+		<action name="vipSelect" class="vipAction" method="vipSelect">
+			<result name="success">/JSP/Vip/vipselect_success.jsp</result>
+		</action>
+		<action name="vipManage" class="vipAction" method="vipManage">
+			<result name="success">/JSP/Vip/vipmanage_success.jsp</result>
+		</action>
+	</package>
+</struts>    

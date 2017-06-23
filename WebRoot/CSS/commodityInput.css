@@ -1,0 +1,27 @@
+@CHARSET "UTF-8";
+
+
+#infoInput{
+	margin: 160px 260px;
+	text-align: center;
+}
+
+#infoInput span{
+	font-size: 26px;
+}
+#infoInput .input{
+	border: 1px solid #80ff00; 
+	font-size: 26px;
+	font-weight: 2px;
+	margin: 6px;
+}
+
+#infoInput #submit{
+	width:80px;
+	padding:0px;
+	background-color: #8080c0;
+	color: white;
+	font-size: 26px;
+	font-family: "楷体";
+	font-weight: bolder;
+}

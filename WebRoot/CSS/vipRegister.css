@@ -1,0 +1,17 @@
+@CHARSET "UTF-8";
+
+#vipRegister{
+	margin:10px 30px;
+	font-size: 26px;
+}
+#vipRegister table{
+	margin:30px 60px;
+	border-collapse: collapse;
+}
+
+
+#vipRegister table td,#vipRegister table th{
+	border: 1px #8080ff solid;
+	text-align: center;
+	padding: 10px;
+}

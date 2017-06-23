@@ -1,0 +1,27 @@
+@CHARSET "UTF-8";
+
+
+#vipManage{
+	margin: 160px 260px;
+	text-align: center;
+}
+
+#vipManage span{
+	font-size: 26px;
+}
+#vipManage .input{
+	border: 1px solid #80ff00; 
+	font-size: 26px;
+	font-weight: 2px;
+	margin: 6px;
+}
+
+#vipManage #submit{
+	width:80px;
+	padding:0px;
+	background-color: #8080c0;
+	color: white;
+	font-size: 26px;
+	font-family: "楷体";
+	font-weight: bolder;
+}

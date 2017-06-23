@@ -1,0 +1,22 @@
+@CHARSET "UTF-8";
+
+#select_success{
+	margin: 100px 200px;
+	font-size: 26px;
+	color: #408080;
+}
+
+#select_success h2{
+	position: absolute;
+}
+
+#select_success table{
+	position: relative;
+	left:60px;
+	top:40px;
+}
+
+#select_success table th,#select_success table td{
+	text-align: center;
+	padding: 12px;
+}

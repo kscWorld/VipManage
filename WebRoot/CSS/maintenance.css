@@ -1,0 +1,19 @@
+@CHARSET "UTF-8";
+
+#maintenance{
+	margin: 30px 260px;
+	font-size: 26px;
+}
+
+#maintenance table td,#maintenance table th{
+	text-align: center;
+	padding: 2px 50px;
+}
+
+
+#maintenance a{
+	color: #625af5;
+}
+#maintenance a:HOVER{
+	color: #e9521f;
+}

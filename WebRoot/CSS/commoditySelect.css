@@ -1,0 +1,18 @@
+@CHARSET "UTF-8";
+
+
+#infoSelect{
+	margin:20px 250px;
+	font-size: 26px;
+}
+#infoSelect table td,#infoSelect table th{
+	text-align: center;
+	padding: 4px 50px;
+}
+
+#infoSelect a{
+	color: #625af5;
+}
+#infoSelect a:HOVER{
+	color: #e9521f;
+}
